@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#favourite-container {
+  display: flex;
+}
+
+#favourite-container div {
+  margin: 50px 20px;
+  width: 200px;
+}
+
+#favourite-container div img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+#favourite-container div button {
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  background-color: antiquewhite;
+}
+
+#favourite-container div button:hover {
+  background-color: grey;
+}
+
+#heading {
+  font-size: 1.4rem;
+  margin: 20px 20px;
+}
+
+h1 {
+  font-size: 1.4rem;
+}

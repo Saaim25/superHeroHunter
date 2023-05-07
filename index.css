@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#favourite_list {
+  margin: 0 10px;
+}
+.header input {
+  height: 1.8rem;
+  width: 200px;
+}
+
+.header #submit-btn {
+  height: 1.8rem;
+  text-decoration: none;
+
+  border-radius: 1rem;
+  width: 80px;
+}
+.header #submit-btn:hover {
+  background-color: red;
+}
+
+span {
+  color: red;
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 50px auto;
+}
+
+.container div img {
+  width: 300px;
+  margin: 50px 0px;
+  border-radius: 10px;
+}
+
+.container div h1 {
+  font-size: 1.4rem;
+}
+
+.container div p {
+  margin: 10px;
+  line-height: 1.4rem;
+}
+
+.container div button {
+  margin: 10px auto;
+  width: 100px;
+  height: 1.8rem;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.container div button:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.list {
+  position: absolute;
+  width: 64%;
+  height: 500px;
+  background-color: #555;
+  color: #ffffff;
+  z-index: 1;
+}
+.autocomplete-items {
+  padding: 0.5em;
+}
+.autocomplete-items:hover {
+  background-color: #ddd;
+  color: #171821;
+}
